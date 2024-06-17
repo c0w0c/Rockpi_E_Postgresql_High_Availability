@@ -10,12 +10,12 @@
 
 ![架構圖](https://ask.qcloudimg.com/draft/5217461/bnfhttzw3y.png)
 
-## 建置環境
-
 ## 硬體
 
 硬體 : [rock pi e v1.2](https://wiki.radxa.com/RockpiE)
+
 系統 : [rockpie_debian_buster_server_arm64_20210824_0255-gpt.img.gz](https://github.com/radxa/rock-pi-images-released/releases/download/v20210824/rockpie_debian_buster_server_arm64_20210824_0255-gpt.img.gz)
+
 記憶卡: 16G
 
 預設使用三台設備，目前嘗試 Patroni 最少要兩台設備，postgresql 才可讀寫，單一台情況下，只能是唯讀狀態。
@@ -40,7 +40,7 @@
 - eth1 : 192.168.168.155
 - HAProxy 狀態網址 : 192.168.2.55:8404/haproxy?stats
 
-## 服務說明
+## 服務
 
 ### keepalived
 
